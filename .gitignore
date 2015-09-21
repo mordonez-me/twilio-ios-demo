@@ -1,0 +1,35 @@
+# Python
+server/bin/
+server/include/
+server/lib/
+server/.Python
+**.pyc
+.DS_Store
+
+# Xcode
+## Build generated
+ios/twilio/build/
+ios/twilio/DerivedData
+
+## Various settings
+ios/twilio/*.pbxuser
+ios/twilio/!default.pbxuser
+ios/twilio/*.mode1v3
+ios/twilio/!default.mode1v3
+ios/twilio/*.mode2v3
+ios/twilio/!default.mode2v3
+ios/twilio/*.perspectivev3
+ios/twilio/!default.perspectivev3
+ios/twilio/xcuserdata
+
+## Other
+ios/twilio/*.xccheckout
+ios/twilio/*.moved-aside
+ios/twilio/*.xcuserstate
+ios/twilio/*.xcscmblueprint
+
+## Obj-C/Swift specific
+ios/twilio/*.hmap
+ios/twilio/*.ipa
+
+settings

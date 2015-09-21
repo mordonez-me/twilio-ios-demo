@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B883FB31BADD3D600EAE1BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B883FB21BADD3D600EAE1BB /* main.m */; };
+		3B883FB61BADD3D600EAE1BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B883FB51BADD3D600EAE1BB /* AppDelegate.m */; };
+		3B883FB91BADD3D600EAE1BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B883FB81BADD3D600EAE1BB /* ViewController.m */; };
+		3B883FBC1BADD3D600EAE1BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FBA1BADD3D600EAE1BB /* Main.storyboard */; };
+		3B883FBE1BADD3D600EAE1BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FBD1BADD3D600EAE1BB /* Assets.xcassets */; };
+		3B883FC11BADD3D600EAE1BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FBF1BADD3D600EAE1BB /* LaunchScreen.storyboard */; };
+		3B883FCC1BADD3D700EAE1BB /* twilioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B883FCB1BADD3D700EAE1BB /* twilioTests.m */; };
+		3B883FD71BADD3D700EAE1BB /* twilioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B883FD61BADD3D700EAE1BB /* twilioUITests.m */; };
+		3B883FE71BADD47100EAE1BB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B883FE61BADD47100EAE1BB /* AudioToolbox.framework */; };
+		3B883FE91BADD47D00EAE1BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B883FE81BADD47D00EAE1BB /* AVFoundation.framework */; };
+		3B883FEB1BADD48600EAE1BB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B883FEA1BADD48600EAE1BB /* CFNetwork.framework */; };
+		3B883FED1BADD48E00EAE1BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B883FEC1BADD48E00EAE1BB /* SystemConfiguration.framework */; };
+		3B883FFF1BADD54700EAE1BB /* disconnect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF01BADD54700EAE1BB /* disconnect.wav */; };
+		3B8840001BADD54700EAE1BB /* dtmf_0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF11BADD54700EAE1BB /* dtmf_0.wav */; };
+		3B8840011BADD54700EAE1BB /* dtmf_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF21BADD54700EAE1BB /* dtmf_1.wav */; };
+		3B8840021BADD54700EAE1BB /* dtmf_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF31BADD54700EAE1BB /* dtmf_2.wav */; };
+		3B8840031BADD54700EAE1BB /* dtmf_3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF41BADD54700EAE1BB /* dtmf_3.wav */; };
+		3B8840041BADD54700EAE1BB /* dtmf_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF51BADD54700EAE1BB /* dtmf_4.wav */; };
+		3B8840051BADD54700EAE1BB /* dtmf_5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF61BADD54700EAE1BB /* dtmf_5.wav */; };
+		3B8840061BADD54700EAE1BB /* dtmf_6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF71BADD54700EAE1BB /* dtmf_6.wav */; };
+		3B8840071BADD54700EAE1BB /* dtmf_7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF81BADD54700EAE1BB /* dtmf_7.wav */; };
+		3B8840081BADD54700EAE1BB /* dtmf_8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FF91BADD54700EAE1BB /* dtmf_8.wav */; };
+		3B8840091BADD54700EAE1BB /* dtmf_9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FFA1BADD54700EAE1BB /* dtmf_9.wav */; };
+		3B88400A1BADD54700EAE1BB /* dtmf_hash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FFB1BADD54700EAE1BB /* dtmf_hash.wav */; };
+		3B88400B1BADD54700EAE1BB /* dtmf_star.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FFC1BADD54700EAE1BB /* dtmf_star.wav */; };
+		3B88400C1BADD54700EAE1BB /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FFD1BADD54700EAE1BB /* incoming.wav */; };
+		3B88400D1BADD54700EAE1BB /* outgoing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B883FFE1BADD54700EAE1BB /* outgoing.wav */; };
+		3B8840111BADDF6700EAE1BB /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 3B8840101BADDF6700EAE1BB /* Headers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B883FC81BADD3D700EAE1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B883FA61BADD3D600EAE1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B883FAD1BADD3D600EAE1BB;
+			remoteInfo = twilio;
+		};
+		3B883FD31BADD3D700EAE1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B883FA61BADD3D600EAE1BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B883FAD1BADD3D600EAE1BB;
+			remoteInfo = twilio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B883FAE1BADD3D600EAE1BB /* twilio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twilio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B883FB21BADD3D600EAE1BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B883FB41BADD3D600EAE1BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B883FB51BADD3D600EAE1BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B883FB71BADD3D600EAE1BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B883FB81BADD3D600EAE1BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B883FBB1BADD3D600EAE1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B883FBD1BADD3D600EAE1BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B883FC01BADD3D600EAE1BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B883FC21BADD3D600EAE1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B883FC71BADD3D700EAE1BB /* twilioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twilioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B883FCB1BADD3D700EAE1BB /* twilioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twilioTests.m; sourceTree = "<group>"; };
+		3B883FCD1BADD3D700EAE1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B883FD21BADD3D700EAE1BB /* twilioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twilioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B883FD61BADD3D700EAE1BB /* twilioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twilioUITests.m; sourceTree = "<group>"; };
+		3B883FD81BADD3D700EAE1BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B883FE41BADD45200EAE1BB /* Libraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libraries; sourceTree = "<group>"; };
+		3B883FE61BADD47100EAE1BB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3B883FE81BADD47D00EAE1BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3B883FEA1BADD48600EAE1BB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3B883FEC1BADD48E00EAE1BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3B883FF01BADD54700EAE1BB /* disconnect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = disconnect.wav; path = Resources/disconnect.wav; sourceTree = "<group>"; };
+		3B883FF11BADD54700EAE1BB /* dtmf_0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_0.wav; path = Resources/dtmf_0.wav; sourceTree = "<group>"; };
+		3B883FF21BADD54700EAE1BB /* dtmf_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_1.wav; path = Resources/dtmf_1.wav; sourceTree = "<group>"; };
+		3B883FF31BADD54700EAE1BB /* dtmf_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_2.wav; path = Resources/dtmf_2.wav; sourceTree = "<group>"; };
+		3B883FF41BADD54700EAE1BB /* dtmf_3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_3.wav; path = Resources/dtmf_3.wav; sourceTree = "<group>"; };
+		3B883FF51BADD54700EAE1BB /* dtmf_4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_4.wav; path = Resources/dtmf_4.wav; sourceTree = "<group>"; };
+		3B883FF61BADD54700EAE1BB /* dtmf_5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_5.wav; path = Resources/dtmf_5.wav; sourceTree = "<group>"; };
+		3B883FF71BADD54700EAE1BB /* dtmf_6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_6.wav; path = Resources/dtmf_6.wav; sourceTree = "<group>"; };
+		3B883FF81BADD54700EAE1BB /* dtmf_7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_7.wav; path = Resources/dtmf_7.wav; sourceTree = "<group>"; };
+		3B883FF91BADD54700EAE1BB /* dtmf_8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_8.wav; path = Resources/dtmf_8.wav; sourceTree = "<group>"; };
+		3B883FFA1BADD54700EAE1BB /* dtmf_9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_9.wav; path = Resources/dtmf_9.wav; sourceTree = "<group>"; };
+		3B883FFB1BADD54700EAE1BB /* dtmf_hash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_hash.wav; path = Resources/dtmf_hash.wav; sourceTree = "<group>"; };
+		3B883FFC1BADD54700EAE1BB /* dtmf_star.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dtmf_star.wav; path = Resources/dtmf_star.wav; sourceTree = "<group>"; };
+		3B883FFD1BADD54700EAE1BB /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incoming.wav; path = Resources/incoming.wav; sourceTree = "<group>"; };
+		3B883FFE1BADD54700EAE1BB /* outgoing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = outgoing.wav; path = Resources/outgoing.wav; sourceTree = "<group>"; };
+		3B8840101BADDF6700EAE1BB /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B883FAB1BADD3D600EAE1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B883FED1BADD48E00EAE1BB /* SystemConfiguration.framework in Frameworks */,
+				3B883FEB1BADD48600EAE1BB /* CFNetwork.framework in Frameworks */,
+				3B883FE91BADD47D00EAE1BB /* AVFoundation.framework in Frameworks */,
+				3B883FE71BADD47100EAE1BB /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FC41BADD3D700EAE1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FCF1BADD3D700EAE1BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B883FA51BADD3D600EAE1BB = {
+			isa = PBXGroup;
+			children = (
+				3B8840101BADDF6700EAE1BB /* Headers */,
+				3B883FEF1BADD51A00EAE1BB /* Resources */,
+				3B883FEE1BADD4B000EAE1BB /* Frameworks */,
+				3B883FE41BADD45200EAE1BB /* Libraries */,
+				3B883FB01BADD3D600EAE1BB /* twilio */,
+				3B883FCA1BADD3D700EAE1BB /* twilioTests */,
+				3B883FD51BADD3D700EAE1BB /* twilioUITests */,
+				3B883FAF1BADD3D600EAE1BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B883FAF1BADD3D600EAE1BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FAE1BADD3D600EAE1BB /* twilio.app */,
+				3B883FC71BADD3D700EAE1BB /* twilioTests.xctest */,
+				3B883FD21BADD3D700EAE1BB /* twilioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B883FB01BADD3D600EAE1BB /* twilio */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FB41BADD3D600EAE1BB /* AppDelegate.h */,
+				3B883FB51BADD3D600EAE1BB /* AppDelegate.m */,
+				3B883FB71BADD3D600EAE1BB /* ViewController.h */,
+				3B883FB81BADD3D600EAE1BB /* ViewController.m */,
+				3B883FBA1BADD3D600EAE1BB /* Main.storyboard */,
+				3B883FBD1BADD3D600EAE1BB /* Assets.xcassets */,
+				3B883FBF1BADD3D600EAE1BB /* LaunchScreen.storyboard */,
+				3B883FC21BADD3D600EAE1BB /* Info.plist */,
+				3B883FB11BADD3D600EAE1BB /* Supporting Files */,
+			);
+			path = twilio;
+			sourceTree = "<group>";
+		};
+		3B883FB11BADD3D600EAE1BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FB21BADD3D600EAE1BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B883FCA1BADD3D700EAE1BB /* twilioTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FCB1BADD3D700EAE1BB /* twilioTests.m */,
+				3B883FCD1BADD3D700EAE1BB /* Info.plist */,
+			);
+			path = twilioTests;
+			sourceTree = "<group>";
+		};
+		3B883FD51BADD3D700EAE1BB /* twilioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FD61BADD3D700EAE1BB /* twilioUITests.m */,
+				3B883FD81BADD3D700EAE1BB /* Info.plist */,
+			);
+			path = twilioUITests;
+			sourceTree = "<group>";
+		};
+		3B883FEE1BADD4B000EAE1BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FEC1BADD48E00EAE1BB /* SystemConfiguration.framework */,
+				3B883FEA1BADD48600EAE1BB /* CFNetwork.framework */,
+				3B883FE81BADD47D00EAE1BB /* AVFoundation.framework */,
+				3B883FE61BADD47100EAE1BB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B883FEF1BADD51A00EAE1BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B883FF01BADD54700EAE1BB /* disconnect.wav */,
+				3B883FF11BADD54700EAE1BB /* dtmf_0.wav */,
+				3B883FF21BADD54700EAE1BB /* dtmf_1.wav */,
+				3B883FF31BADD54700EAE1BB /* dtmf_2.wav */,
+				3B883FF41BADD54700EAE1BB /* dtmf_3.wav */,
+				3B883FF51BADD54700EAE1BB /* dtmf_4.wav */,
+				3B883FF61BADD54700EAE1BB /* dtmf_5.wav */,
+				3B883FF71BADD54700EAE1BB /* dtmf_6.wav */,
+				3B883FF81BADD54700EAE1BB /* dtmf_7.wav */,
+				3B883FF91BADD54700EAE1BB /* dtmf_8.wav */,
+				3B883FFA1BADD54700EAE1BB /* dtmf_9.wav */,
+				3B883FFB1BADD54700EAE1BB /* dtmf_hash.wav */,
+				3B883FFC1BADD54700EAE1BB /* dtmf_star.wav */,
+				3B883FFD1BADD54700EAE1BB /* incoming.wav */,
+				3B883FFE1BADD54700EAE1BB /* outgoing.wav */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B883FAD1BADD3D600EAE1BB /* twilio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B883FDB1BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilio" */;
+			buildPhases = (
+				3B883FAA1BADD3D600EAE1BB /* Sources */,
+				3B883FAB1BADD3D600EAE1BB /* Frameworks */,
+				3B883FAC1BADD3D600EAE1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twilio;
+			productName = twilio;
+			productReference = 3B883FAE1BADD3D600EAE1BB /* twilio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B883FC61BADD3D700EAE1BB /* twilioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B883FDE1BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilioTests" */;
+			buildPhases = (
+				3B883FC31BADD3D700EAE1BB /* Sources */,
+				3B883FC41BADD3D700EAE1BB /* Frameworks */,
+				3B883FC51BADD3D700EAE1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B883FC91BADD3D700EAE1BB /* PBXTargetDependency */,
+			);
+			name = twilioTests;
+			productName = twilioTests;
+			productReference = 3B883FC71BADD3D700EAE1BB /* twilioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B883FD11BADD3D700EAE1BB /* twilioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B883FE11BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilioUITests" */;
+			buildPhases = (
+				3B883FCE1BADD3D700EAE1BB /* Sources */,
+				3B883FCF1BADD3D700EAE1BB /* Frameworks */,
+				3B883FD01BADD3D700EAE1BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B883FD41BADD3D700EAE1BB /* PBXTargetDependency */,
+			);
+			name = twilioUITests;
+			productName = twilioUITests;
+			productReference = 3B883FD21BADD3D700EAE1BB /* twilioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B883FA61BADD3D600EAE1BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Marco Ordonez";
+				TargetAttributes = {
+					3B883FAD1BADD3D600EAE1BB = {
+						CreatedOnToolsVersion = 7.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3B883FC61BADD3D700EAE1BB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3B883FAD1BADD3D600EAE1BB;
+					};
+					3B883FD11BADD3D700EAE1BB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 3B883FAD1BADD3D600EAE1BB;
+					};
+				};
+			};
+			buildConfigurationList = 3B883FA91BADD3D600EAE1BB /* Build configuration list for PBXProject "twilio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B883FA51BADD3D600EAE1BB;
+			productRefGroup = 3B883FAF1BADD3D600EAE1BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B883FAD1BADD3D600EAE1BB /* twilio */,
+				3B883FC61BADD3D700EAE1BB /* twilioTests */,
+				3B883FD11BADD3D700EAE1BB /* twilioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B883FAC1BADD3D600EAE1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B883FFF1BADD54700EAE1BB /* disconnect.wav in Resources */,
+				3B8840061BADD54700EAE1BB /* dtmf_6.wav in Resources */,
+				3B883FC11BADD3D600EAE1BB /* LaunchScreen.storyboard in Resources */,
+				3B8840001BADD54700EAE1BB /* dtmf_0.wav in Resources */,
+				3B8840081BADD54700EAE1BB /* dtmf_8.wav in Resources */,
+				3B8840031BADD54700EAE1BB /* dtmf_3.wav in Resources */,
+				3B883FBE1BADD3D600EAE1BB /* Assets.xcassets in Resources */,
+				3B88400A1BADD54700EAE1BB /* dtmf_hash.wav in Resources */,
+				3B8840041BADD54700EAE1BB /* dtmf_4.wav in Resources */,
+				3B883FBC1BADD3D600EAE1BB /* Main.storyboard in Resources */,
+				3B8840051BADD54700EAE1BB /* dtmf_5.wav in Resources */,
+				3B8840111BADDF6700EAE1BB /* Headers in Resources */,
+				3B8840011BADD54700EAE1BB /* dtmf_1.wav in Resources */,
+				3B8840021BADD54700EAE1BB /* dtmf_2.wav in Resources */,
+				3B88400B1BADD54700EAE1BB /* dtmf_star.wav in Resources */,
+				3B88400D1BADD54700EAE1BB /* outgoing.wav in Resources */,
+				3B8840071BADD54700EAE1BB /* dtmf_7.wav in Resources */,
+				3B88400C1BADD54700EAE1BB /* incoming.wav in Resources */,
+				3B8840091BADD54700EAE1BB /* dtmf_9.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FC51BADD3D700EAE1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FD01BADD3D700EAE1BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B883FAA1BADD3D600EAE1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B883FB91BADD3D600EAE1BB /* ViewController.m in Sources */,
+				3B883FB61BADD3D600EAE1BB /* AppDelegate.m in Sources */,
+				3B883FB31BADD3D600EAE1BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FC31BADD3D700EAE1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B883FCC1BADD3D700EAE1BB /* twilioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B883FCE1BADD3D700EAE1BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B883FD71BADD3D700EAE1BB /* twilioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B883FC91BADD3D700EAE1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B883FAD1BADD3D600EAE1BB /* twilio */;
+			targetProxy = 3B883FC81BADD3D700EAE1BB /* PBXContainerItemProxy */;
+		};
+		3B883FD41BADD3D700EAE1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B883FAD1BADD3D600EAE1BB /* twilio */;
+			targetProxy = 3B883FD31BADD3D700EAE1BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B883FBA1BADD3D600EAE1BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B883FBB1BADD3D600EAE1BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B883FBF1BADD3D600EAE1BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B883FC01BADD3D600EAE1BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B883FD91BADD3D700EAE1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TWILIO_SDK_HEADERS_DIR = "$(SRCROOT)/Headers";
+			};
+			name = Debug;
+		};
+		3B883FDA1BADD3D700EAE1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TWILIO_SDK_HEADERS_DIR = "$(SRCROOT)/Headers";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B883FDC1BADD3D700EAE1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(TWILIO_SDK_HEADERS_DIR)";
+				INFOPLIST_FILE = twilio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(TWILIO_SDK_LIBRARY_DIR)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lTwilioClient",
+					"-ObjC",
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TWILIO_SDK_LIBRARY_DIR = "$(SRCROOT)/Libraries";
+			};
+			name = Debug;
+		};
+		3B883FDD1BADD3D700EAE1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "$(TWILIO_SDK_HEADERS_DIR)";
+				INFOPLIST_FILE = twilio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(TWILIO_SDK_LIBRARY_DIR)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lTwilioClient",
+					"-ObjC",
+					"-lcrypto",
+					"-lssl",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TWILIO_SDK_LIBRARY_DIR = "$(SRCROOT)/Libraries";
+			};
+			name = Release;
+		};
+		3B883FDF1BADD3D700EAE1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twilioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twilio.app/twilio";
+			};
+			name = Debug;
+		};
+		3B883FE01BADD3D700EAE1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = twilioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twilio.app/twilio";
+			};
+			name = Release;
+		};
+		3B883FE21BADD3D700EAE1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twilioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twilio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B883FE31BADD3D700EAE1BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = twilioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.evolbit.twilioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = twilio;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B883FA91BADD3D600EAE1BB /* Build configuration list for PBXProject "twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B883FD91BADD3D700EAE1BB /* Debug */,
+				3B883FDA1BADD3D700EAE1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B883FDB1BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B883FDC1BADD3D700EAE1BB /* Debug */,
+				3B883FDD1BADD3D700EAE1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B883FDE1BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B883FDF1BADD3D700EAE1BB /* Debug */,
+				3B883FE01BADD3D700EAE1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B883FE11BADD3D700EAE1BB /* Build configuration list for PBXNativeTarget "twilioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B883FE21BADD3D700EAE1BB /* Debug */,
+				3B883FE31BADD3D700EAE1BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B883FA61BADD3D600EAE1BB /* Project object */;
+}
